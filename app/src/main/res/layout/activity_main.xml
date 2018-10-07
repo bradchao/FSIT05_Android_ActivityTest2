@@ -19,5 +19,11 @@
         android:text="gotoPage2"
         android:onClick="gotoPage2"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gotoPage3"
+        android:onClick="gotoPage3"
+        />
 
 </LinearLayout>

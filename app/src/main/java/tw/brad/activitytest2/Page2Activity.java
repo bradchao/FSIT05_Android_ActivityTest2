@@ -16,6 +16,16 @@ public class Page2Activity extends AppCompatActivity {
         int rand = intent.getIntExtra("rand", -1);
         Log.d("brad", "Page2 rand=" + rand);
 
+    }
 
+    @Override
+    public void finish() {
+        //setResult(123);
+        Intent intent = new Intent();
+        intent.putExtra("username", "Brad");
+        intent.putExtra("isPass", true);
+        setResult(321, intent);
+
+        super.finish();
     }
 }
